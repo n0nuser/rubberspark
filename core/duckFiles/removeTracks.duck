@@ -1,0 +1,7 @@
+STRING Remove-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU' -Name '*' -ErrorAction SilentlyContinue
+ENTER
+DELAY 1000
+
+STRING Clear-History; rm (Get-PSReadlineOption).HistorySavePath
+ENTER
+DELAY 750

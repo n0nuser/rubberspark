@@ -1,0 +1,3 @@
+STRING netsh advfirewall set allprofiles state on;Set-MpPreference -DisableRealtimeMonitoring 0;Set-MpPreference -DisableBehaviorMonitoring 0;Set-MpPreference -DisableOnAccessProtection 0;Set-MpPreference -DisableScanOnRealtimeEnable 0;Set-MpPreference -PUAProtection 1;Gpupdate /Force
+ENTER
+DELAY 3000

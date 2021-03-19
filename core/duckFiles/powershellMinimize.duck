@@ -1,0 +1,3 @@
+STRING [console]::WindowWidth=100; [console]::WindowHeight=1; [console]::BufferWidth=[console]::WindowWidth=1
+ENTER
+DELAY 750
